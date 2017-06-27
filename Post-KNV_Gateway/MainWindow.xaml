@@ -1,0 +1,14 @@
+﻿<Window x:Class="Post_KNV_Gateway.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Gateway" Height="350" Width="525" Closing="Window_Closing">
+    <Grid>
+        <TextBox x:Name="_Console" HorizontalAlignment="Left" Height="271" Margin="10,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="497"/>
+        <TextBox x:Name="_TextboxServerAddress" HorizontalAlignment="Left" Height="23" Margin="110,10,0,0" TextWrapping="Wrap" Text="132.252.208.14:8999" VerticalAlignment="Top" Width="128"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,10,0,0" TextWrapping="Wrap" Text="Server Address:" VerticalAlignment="Top" FontSize="14"/>
+        <Button x:Name="_ButtonSetAddress" Content="Set" HorizontalAlignment="Left" Margin="374,10,0,0" VerticalAlignment="Top" Width="27" Height="23" Click="_ButtonSetAddress_Click"/>
+        <TextBox x:Name="_TextboxListeningPort" HorizontalAlignment="Left" Height="23" Margin="335,10,0,0" TextWrapping="Wrap" Text="8999" VerticalAlignment="Top" Width="34"/>
+        <TextBlock HorizontalAlignment="Left" Margin="243,10,0,0" TextWrapping="Wrap" Text="Listening Port:" VerticalAlignment="Top" FontSize="14"/>
+
+    </Grid>
+</Window>
